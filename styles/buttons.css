@@ -1,0 +1,13 @@
+.btn-signup {
+	color: aliceblue;
+	background-color: #0056ab;
+	border: 0;
+	padding: 16px 35px;
+	font-size: 16px;
+	cursor: pointer;
+	border-radius: 8px;
+}
+
+.btn-close {
+	border-radius: 8px;
+}
