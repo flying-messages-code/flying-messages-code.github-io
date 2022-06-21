@@ -1,0 +1,53 @@
+.banner {
+	/* for positioning */
+	width: 100%;
+	height: 300px;
+	position: fixed;
+	top: 70px;
+	background: linear-gradient(45deg, #98cbff, #98ffcb);
+
+	/* for content alignment */
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.banner2 {
+    width: 80%; /* Ширина элемента в пикселах */
+    padding: 30px; /* Поля вокруг текста */
+    margin: auto; /* Выравниваем по центру */
+    /*background: #fc0; /* Цвет фона */
+    font-size: 150%;
+    text-align: center;
+    align-items: center;
+
+    border-radius: 25px;
+    border: 2px solid #2169ad;
+}
+
+.banner3 {
+    width: 750; /* Ширина элемента в пикселах */
+    padding: 10px; /* Поля вокруг текста */
+    margin: auto; /* Выравниваем по центру */
+    font-size: 150%;
+    text-align: center;
+}
+
+.banner4 {
+    width: auto; /* Ширина элемента в пикселах */
+    padding: 5px; /* Поля вокруг текста */
+    margin: auto; /* Выравниваем по центру */
+    font-size: 50%;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.banner5 {
+    width: auto; /* Ширина элемента в пикселах */
+    max-width: 650px;
+    padding: 5px; /* Поля вокруг текста */
+    font-size: 100%;
+    text-align: right;
+    word-wrap: break-word;
+}

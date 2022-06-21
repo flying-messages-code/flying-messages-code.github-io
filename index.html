@@ -6,15 +6,32 @@
 		.mainStyle{
 			font-family: Oswald-Medium;
 		}
+
+		body{
+    		background-color: #f0f0f0; /* Цвет фона веб-страницы */
+   		}
+
+		/*article{
+			background-color: ;
+		}*/
 	</style>
+
+	<style type="text/css">
+		TD.leftcol {
+	 		width: 220px; /* Ширина левой колонки с рисунком */
+	 		vertical-align: top; /* Выравнивание по верхнему краю */
+		}
+   </style>
 	
   	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     	<meta charset="UTF-8" />
     	<title>Flying messages</title>
 		<link rel="stylesheet" href="styles/style.css">
 		<link rel="stylesheet" href="styles/menuStyle.css">
 		<link rel="stylesheet" href="styles/buttons.css">
 		<link rel="stylesheet" href="styles/article.css">
+		<link rel="stylesheet" href="styles/banners.css">
   	</head>
 	
   	<body>
@@ -45,10 +62,21 @@
   	</body>
 
 	<body>
-		<article class="article">
+		<article class="article" style="background-color: #f0f0f0;">
 			<p class="title1">
-				Fast LPI engine
-				<img src="images/fastLPI engine/FastLPI logo.png" width="250" height="250">
+				<article class="banner2" style="background: linear-gradient(45deg, #7cbaf8, #ff98d8);">
+					<table>
+						<td class="leftcol">
+							<img src="images/fastLPI engine/FastLPI logo.png" width="200" height="200">
+						</td>
+						<td valign="top" style="width: 100%;">
+							<article class="banner3">Fast LPI engine</article>
+							<article class="banner4">*fast lightweight post-inverse game engine</article>
+							<article class="banner5">Здесь идёт описание продукта</article>
+							</article>
+						</td>
+					</table>
+				</article>
 			</p>
 			
 		</article>
