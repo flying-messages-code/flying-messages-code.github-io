@@ -23,7 +23,7 @@
     align-items: center;
 
     border-radius: 25px;
-    border: 2px solid #2169ad;
+    /*border: 2px solid #2169ad;*/
 }
 
 .banner3 {
@@ -32,6 +32,7 @@
     margin: auto; /* Выравниваем по центру */
     font-size: 150%;
     text-align: center;
+    font-family: sans-serif;
 }
 
 .banner4 {
@@ -41,13 +42,16 @@
     font-size: 50%;
     text-align: center;
     padding-bottom: 15px;
+    font-family: sans-serif;
 }
 
 .banner5 {
     width: auto; /* Ширина элемента в пикселах */
     max-width: 650px;
     padding: 5px; /* Поля вокруг текста */
-    font-size: 100%;
-    text-align: right;
+    font-size: 125%;
+    text-align: left;
     word-wrap: break-word;
+    font-family: sans-serif;
+    color: white;
 }
